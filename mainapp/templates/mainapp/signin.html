@@ -10,14 +10,14 @@
            <div class="container">
                 
 
-                <form  method="POST" style="margin-top: 120px;">
+                <form  method="POST" style="margin-top: 60px;">
                     <!-- <h2>Sign in to your account</h2> -->
-                    
+                    <h3 class="center">Login Account</h3>
+
                     <!-- <p style="color: red;">{{msg}}</p> -->
                     {%for key,message in msg.items%}
                     <p>{{key}}<b style="color:red;">&nbsp; :{{message}}</b></p> 
                    {%endfor%}
-                    <br> <br>
                     {%csrf_token%}
                     <span>Username Or Email</span>
                     <div>

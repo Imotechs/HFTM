@@ -4,12 +4,14 @@
 <link rel="stylesheet" href="{%static 'mainapp/css/other.css'%}">
 <link rel="stylesheet" href="{%static 'mainapp/cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css'%}"/>
 <link rel="stylesheet" href="{%static 'mainapp/css/form.css'%}">
-        <div class="form">
-           <div class="container">
+          
+<div class="form">
 
-                <form action="#" method="post" style="margin-top: 120px;"> 
+<div class="container">
+
+                <form  method="post" style="margin-top: 60px;"> 
                     
-                    <h3 class="center">Register an Account</h3>
+                    <h3 class="center">Create Account</h3>
                     <!-- <p class=""> <br>
                         Once you've filled in your details, you'll be ready to start investing. <br> <br>
                     </p> -->
@@ -313,7 +315,8 @@
 
                     <div class="checkbox">
                         <input type="checkbox" name="checkbox" id="checkbox" value="agree" required>
-                        <label for="checkbox">  I have read and agree to the <a style="color:blue" href="/terms.html">Terms & Conditions</a> which provides that Website Name is an online service and that you will receive all account notices and information electronically via your primary email address. You have also read and agree to the <a style="color:blue" href="../about/privacy.html">Company's Privacy Policy.</a>  If you provide your mobile number, you confirm that you are authorized to add this number and give us permission to contact you about your branded accounts using automated calls or texts to service your accounts, investigate fraud.</label><br>
+                        <label for="checkbox">  I have read and agree to the <a style="color:blue" href="
+                            {%url 'terms'%}">Terms & Conditions</a></label><br>
                     </div>
 
                     <p class=""> <br>
